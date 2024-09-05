@@ -1,6 +1,9 @@
 
 import './App.css'
-import About from './components/AboutMe/about'
+import AboutMe from './components/AboutMe/aboutMe'
+
+import Intro from './components/Intro/intro'
+import Projects from './components/Projects/projects'
 import Header from './components/header/header'
 
 
@@ -12,8 +15,9 @@ function App() {
     <>
     <div className='font'>
       <Header></Header>
-      <About></About>
-
+      <Intro></Intro>
+      <AboutMe></AboutMe>
+      <Projects></Projects>
     </div>
       
     
